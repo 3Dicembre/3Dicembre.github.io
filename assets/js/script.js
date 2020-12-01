@@ -4,3 +4,6 @@ $('.carousel').carousel(
    }
 )
 
+function checkPswd(){
+   alert("Sbagliato, pensaci meglio");
+}

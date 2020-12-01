@@ -11,13 +11,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    </head>
    <body>
-      <div class="container-fluid">
+      <script src="assets/js/script.js"></script>
+      <main class="container">
          <div class="row">
-            <h1>Benvenuta Gaia</h1>
+            <h1 class = "mt-5">Benvenuta Gaia</h1>
          </div>
          <div class = "row">
-            <p>Benvenuta al gioco che ho creato per te.</p>
+            <p class = "lead">Benvenuta al gioco che ho creato per te.</p>
          </div>
-      </div>
+         <div class="row">
+            <p class = "lead">Il gioco è semplice, devi scoprire una singola password. Cerca di entrare nella mia mente, cerca di hackerarmi, se ci riesci.</p>
+         </div>
+         <div class="row">
+            <p class = "lead">Beh, non ti resta che provare. Non mi chiedere niente, non avrai altre informazioni. Buon gioco.</p>
+         </div>
+            <div align="center">
+               <form>
+                  <div class="form-group">
+                     <label >Password</label>
+                     <input type="email" class="form-control" id="input" aria-describedby="emailHelp" placeholder="Enter password">
+                     <small id="emailHelp" class="form-text text-muted">Pensaci bene...</small>
+                  </div>
+                  <button type="submit" onclick="checkPswd()" class="btn btn-primary">Inserisci</button>
+               </form>
+            </div>
+      </main>
+      <footer class="footer">
+         <div class="container">
+            <div align="center">
+               <span class="text-muted">Programmato con &hearts; da <a href = "gabbiurlaro.github.io">gabbiurlaro</a></span>
+            </div>
+         </div>
+       </footer>
    </body>
 </html>
