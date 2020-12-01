@@ -1,6 +1,6 @@
 $('.carousel').carousel(
    {
-      interval: 100
+      interval: 1000
    }
 )
 
