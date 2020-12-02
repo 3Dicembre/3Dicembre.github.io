@@ -5,5 +5,6 @@ $('.carousel').carousel(
 )
 
 function checkPswd(){
-   alert("Sbagliato, pensaci meglio");
+   pswd = document.getElementById("input").innerHTML;
+   alert(pswd);
 }

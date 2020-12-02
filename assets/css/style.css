@@ -4,9 +4,10 @@ html {
    position: relative;
    min-height: 100%;
  }
- body {
+ body, main {
    margin-bottom: 60px; /* Margin bottom by footer height */
  }
+
  .footer {
    position: absolute;
    bottom: 0;
